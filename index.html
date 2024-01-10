@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="an ai intigrated website">
+    <meta name="keywords" content="Chatboat, AI, google generativeai">
+    <meta name="author" content="Manish Kumar Maurya">
+    <meta property="og:title" content="Chatboat">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Chatboat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatboat</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="chat-section">
+            <div class="chat-header">
+                <div class="contact-info">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf_GkEmaquf0IyrYf-B38XpcA0hRSSVB9iPqcN86s7zA&s"
+                        alt="Profile Picture">
+                    <div class="contact-details">
+                        <div class="contact-name" id="chatTitle">Chatboat</div>
+                    </div>
+                </div>
+                <div class="chat-controls">
+                    <i id="nightModeIcon" class="fas fa-moon"></i>
+                    <i id="dayModeIcon" class="fas fa-sun hide"></i>
+                    <button class="mybtn" id="removeAllChatsBtn">Remove Chats</button>
+                </div>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be displayed here -->
+            </div>
+            <div class="message-input">
+                <input type="text" id="userInput" placeholder="Type a message...">
+                <button class="mybtn" id="sendMessageBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
